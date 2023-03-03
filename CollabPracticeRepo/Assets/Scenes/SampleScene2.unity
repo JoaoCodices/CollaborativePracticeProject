@@ -340,6 +340,7 @@ GameObject:
   - component: {fileID: 842476265}
   - component: {fileID: 842476264}
   - component: {fileID: 842476263}
+  - component: {fileID: 842476266}
   m_Layer: 0
   m_Name: Video1
   m_TagString: Untagged
@@ -447,6 +448,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &842476266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842476262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad757d11b5095f74cbf48607ea5c92c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OBJ_Option_1_Text: {fileID: 0}
+  OBJ_Option_2_Text: {fileID: 0}
+  OBJ_Option_3_Text: {fileID: 0}
+  OBJ_Option_4_Text: {fileID: 0}
+  Option_1_Text: 
+  Option_2_Text: 
+  Option_3_Text: 
+  Option_4_Text: 
+  Video_Path: {fileID: 32900000, guid: fd1dfc636c85ce846845ba22bff51094, type: 3}
+  Option_1: {fileID: 790539958}
+  Option_2: {fileID: 1587241700}
+  Option_3: {fileID: 1774338147}
+  Option_4: {fileID: 1287292875}
+  Correct_Option: {fileID: 0}
 --- !u!1 &1174872356
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +486,7 @@ GameObject:
   - component: {fileID: 1174872359}
   - component: {fileID: 1174872358}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option_2_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,7 +743,7 @@ GameObject:
   - component: {fileID: 1400584668}
   - component: {fileID: 1400584667}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option_3_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,7 +878,7 @@ GameObject:
   - component: {fileID: 1411656988}
   - component: {fileID: 1411656987}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option_1_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1177,7 +1204,7 @@ GameObject:
   - component: {fileID: 1696157294}
   - component: {fileID: 1696157293}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option_4_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
